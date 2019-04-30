@@ -1,7 +1,7 @@
 const canvas = document.getElementById('canvas');
 const context = canvas.getContext('2d');
 
-context.scale(20, 20);
+context.scale(30, 30);
 
 
 
@@ -114,7 +114,7 @@ function update(time = 0) {
     requestAnimationFrame(update); //repeats
 }
 
-const arena = createMatrix(12, 20);
+const arena = createMatrix(10, 25);
 
 const player = {
     pos: {x: 5, y: 5},
